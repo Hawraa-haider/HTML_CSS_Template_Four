@@ -134,11 +134,12 @@ header {
     padding: 15px 20px;
 }
 header .search {
+    width: 170px;
     padding: 10px 0;
     border: 1px #b9b9b9 solid;
 }
 header .search input {
-    width: 130px;
+    width: 100%;
     border: none;
     background: transparent;
 }
