@@ -140,7 +140,7 @@ header .search {
 header .search input {
     width: 130px;
     border: none;
-    background: none;
+    background: transparent;
 }
 header .search input:focus::placeholder {
     visibility: hidden;
