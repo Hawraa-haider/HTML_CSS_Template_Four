@@ -134,20 +134,22 @@ header {
     padding: 15px 20px;
 }
 header .search {
-    width: 170px;
     padding: 10px 0;
     border: 1px #b9b9b9 solid;
 }
 header .search input {
-    width: 100%;
+    width: 130px;
     border: none;
-    background: transparent;
+    background: none;
 }
 header .search input:focus::placeholder {
     visibility: hidden;
 }
 header .search input:focus {
-    width: 160px;
+    width: 170px;
+}
+header .search input[tybe="search"]:focus ~ .fa-search {
+    display: none;
 }
 header .search i {
     margin: 0 10px;
